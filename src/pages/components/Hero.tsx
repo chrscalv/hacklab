@@ -12,11 +12,11 @@ function Hero(){
                 <Button mt={50} size="lg">Cari Lowongan Sekarang</Button>
             </Grid.Col>
             <Space w={50}></Space>
-            <Grid.Col xs={12} lg={4}>
+            <Grid.Col xs={12} lg={3}>
                 <Image
                 src="https://images.unsplash.com/photo-1511216335778-7cb8f49fa7a3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=720&q=80"
                 height={350}
-                width="100%"
+                width={350}
                 ></Image>
             </Grid.Col>
         </Grid>

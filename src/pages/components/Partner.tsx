@@ -5,16 +5,16 @@ function Partner(){
     return(
         <>
             <Grid justify="space-around">
-                <Grid.Col md={3} lg={3}>
+                <Grid.Col md={3} lg={2}>
                     <Image src="/logos.webp" />
                 </Grid.Col>
-                <Grid.Col md={3} lg={3}>
+                <Grid.Col md={3} lg={2}>
                     <Image src="/logos.webp" />
                 </Grid.Col>
-                <Grid.Col md={3} lg={3}>
+                <Grid.Col md={3} lg={2}>
                     <Image src="/logos.webp" />
                 </Grid.Col>
-                <Grid.Col md={3} lg={3}>
+                <Grid.Col md={3} lg={2}>
                     <Image src="/logos.webp" />
                 </Grid.Col>
             </Grid>
