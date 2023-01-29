@@ -16,16 +16,16 @@ import Link from "next/link";
 const Header: NextPage = () => {
   return (
     <>
-        <Grid justify="space-between">
-            <Grid.Col span={9}>
-                <Text fz={22} fw="700">Logo</Text>
-            </Grid.Col>
-            <Grid.Col span={1}>
-                <Flex gap="md">
-                    <Button variant="outline">Sign Up</Button>
-                    <Button>Sign In</Button>
-                </Flex>
-            </Grid.Col>
+      <Grid justify="space-between">
+        <Grid.Col span={9}>
+          <Text fz={22} fw="700">Logo</Text>
+        </Grid.Col>
+          <Grid.Col span={1}>
+            <Flex gap="md">
+              <Button variant="outline">Sign Up</Button>
+              <Button>Sign In</Button>
+            </Flex>
+          </Grid.Col>
         </Grid>
     </>
   );
